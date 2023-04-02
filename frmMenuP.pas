@@ -1,0 +1,48 @@
+unit frmMenuP;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TfrmMenuPrincipal = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    N1: TMenuItem;
+    CadastroPlaca1: TMenuItem;
+    CadastroCliente1: TMenuItem;
+    Estoque1: TMenuItem;
+    N2: TMenuItem;
+    CadastroEstoque1: TMenuItem;
+    PreosItensEstoque1: TMenuItem;
+    Servios1: TMenuItem;
+    NovoServio1: TMenuItem;
+    N3: TMenuItem;
+    ConsultarServios1: TMenuItem;
+    N4: TMenuItem;
+    Garantias1: TMenuItem;
+    Relatorios1: TMenuItem;
+    NovosClientes1: TMenuItem;
+    NovosServios1: TMenuItem;
+    N5: TMenuItem;
+    Lucro1: TMenuItem;
+    N6: TMenuItem;
+    Relatoriodegarantias1: TMenuItem;
+    N7: TMenuItem;
+    ServiosFuncionarios1: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMenuPrincipal: TfrmMenuPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.
